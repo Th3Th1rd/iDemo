@@ -1,0 +1,15 @@
+io.ionic.starter
+drawable screen
+id closeBtn
+id fullscreen_content_controls
+id loadingBar
+id photoView
+id shareBtn
+id titleTxt
+layout activity_photo
+mipmap ic_launcher
+string activity_name
+string app_name
+string launcher_name
+xml config
+xml network_security_config
