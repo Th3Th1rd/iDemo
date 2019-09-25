@@ -15,7 +15,10 @@ const routes: Routes = [
     path: 'list',
     loadChildren: () => import('./pages/list/list.module').then(m => m.ListPageModule)
   },
-  { path: 'planes', loadChildren: './pages/planes/planes.module#PlanesPageModule' },
+  { 
+    path: 'planes',
+    loadChildren: () => import('./pages/planes/planes.module').then(m => m.PlanesPageModule)
+  },
   { path: 'image1', loadChildren: './pages/expanded/image1/image1.module#Image1PageModule' },
   { path: 'image2', loadChildren: './pages/expanded/image2/image2.module#Image2PageModule' },
   { path: 'image3', loadChildren: './pages/expanded/image3/image3.module#Image3PageModule' },
